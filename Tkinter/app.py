@@ -58,7 +58,7 @@ header = Frame(root, width=1400, height=130, bg="white")
 header.grid(columnspan=3, rowspan=2, row=0)
 
 #main content area - text and image extraction
-main_content = Frame(root, width=1400, height=130, bg="#20bebe")
+main_content = Frame(root, width=50, height=50, bg="#20bebe")
 main_content.grid(columnspan=3, rowspan=2, row=4)
 
 def open_file():
