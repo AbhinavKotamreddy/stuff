@@ -78,4 +78,10 @@ browse_btn = Button(root, textvariable=browse_text, command=lambda:open_file(), 
 browse_text.set("Browse")
 browse_btn.grid(column=2, row=1, sticky=NE, padx=50)
 
+#Close Button
+close_text = StringVar()
+close_btn = Button(root, textvariable=close_text, command=root.destroy, font=("Raleway",12), bg="#20bebe", fg="white", height=1, width=15)
+close_text.set("Close")
+close_btn.grid(column=0, row=3, sticky=NE, padx=50)
+
 root.mainloop()
